@@ -1,0 +1,40 @@
+﻿<Window x:Name="wdw_HotAndColdBeverages" x:Class="Lab_WawaApp.HotAndColdBeverageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_WawaApp"
+        mc:Ignorable="d"
+        Title="Hot and Cold Beverage Selection Window" Height="520" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="/IconAssets/WawaWindowIcon.png">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FFE0CAA5" Offset="0.177"/>
+            <GradientStop Offset="0.029" Color="#FFA29E97"/>
+            <GradientStop Color="#FFFEF5E3" Offset="0.91"/>
+            <GradientStop Color="#FFE6D5B7" Offset="0.429"/>
+            <GradientStop Color="#FFEBDFC8" Offset="0.655"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid x:Name="grd_HotAndColdBeverage">
+        <Image x:Name="img_connector_1" HorizontalAlignment="Left" Height="26" Margin="167,143,0,0" VerticalAlignment="Top" Width="101" Source="/ImageAssets/ItemConnector.png" StretchDirection="DownOnly"/>
+        <Rectangle x:Name="rct_myOrderBox" HorizontalAlignment="Left" Height="502" Margin="567,0,0,0" VerticalAlignment="Center" Width="233">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFE0CAA5" Offset="0.05"/>
+                    <GradientStop Offset="0" Color="#FFBDBDBD"/>
+                    <GradientStop Color="White" Offset="0.91"/>
+                    <GradientStop Color="#FFF3EBDD" Offset="0.23"/>
+                    <GradientStop Color="#FFE3D0B0" Offset="0.112"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBox x:Name="txt_MyOrderList" HorizontalAlignment="Left" Margin="578,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="196" Height="310" IsReadOnly="True" Loaded="txt_MyOrderList_Loaded" VerticalScrollBarVisibility="Auto"/>
+        <Label x:Name="lbl_NutritionStatement" Content="2,000 calories a day is used for&#xA;general nutrition advice, but calorie &#xA;needs vary. Additional nutrition &#xA;information available upon request." HorizontalAlignment="Left" Margin="577,403,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.2,0.401" Width="204"/>
+        <Image x:Name="img_MyOrder" HorizontalAlignment="Left" Height="19" Margin="647,20,0,0" VerticalAlignment="Top" Width="59" Source="/ImageAssets/MyOrderLabel.png"/>
+        <Image x:Name="img_previousButton" HorizontalAlignment="Left" Height="28" Margin="578,370,0,0" VerticalAlignment="Top" Width="92" Source="/ImageAssets/PreviousButton.png" MouseLeftButtonDown="img_previousButton_MouseLeftButtonDown"/>
+        <Image x:Name="img_makeASelection" HorizontalAlignment="Left" Height="62" Margin="157,26,0,0" VerticalAlignment="Top" Width="272" Source="/ImageAssets/MakeASelection.png"/>
+        <Image x:Name="img_coldBeveragesOption" HorizontalAlignment="Left" Height="110" Margin="209,89,0,0" VerticalAlignment="Top" Width="174" Source="/ImageAssets/BeveragesSelection/ColdBeverages.png" MouseLeftButtonDown="img_coldBeveragesOption_MouseLeftButtonDown"/>
+        <Image x:Name="img_hotBeveragesOption" HorizontalAlignment="Left" Height="118" Margin="19,81,0,0" VerticalAlignment="Top" Width="164" Source="/ImageAssets/BeveragesSelection/HotBeverages.png" MouseLeftButtonDown="img_hotBeveragesOption_MouseLeftButtonDown" />
+
+    </Grid>
+</Window>

@@ -1,0 +1,176 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BackgroundAssets\WawaBeginningMenu-01.png" />
+    <None Remove="IconAssets\WawaWindowIcon.png" />
+    <None Remove="ImageAssets\AddMoreToYourOrder.png" />
+    <None Remove="ImageAssets\AllergenWarning.png" />
+    <None Remove="ImageAssets\BeveragesSelection.png" />
+    <None Remove="ImageAssets\BeveragesSelection\ColdBeverages.png" />
+    <None Remove="ImageAssets\BeveragesSelection\ColdBeverage\ChaiMatcha_Cold.png" />
+    <None Remove="ImageAssets\BeveragesSelection\ColdBeverage\GreenTea_Cold.png" />
+    <None Remove="ImageAssets\BeveragesSelection\ColdBeverage\Lemonade_Cold.png" />
+    <None Remove="ImageAssets\BeveragesSelection\HotBeverages.png" />
+    <None Remove="ImageAssets\BeveragesSelection\HotBeverage\DoubleShotOfEspresso_Hot.png" />
+    <None Remove="ImageAssets\BeveragesSelection\HotBeverage\MoltenLava_Hot.png" />
+    <None Remove="ImageAssets\CancelButton.png" />
+    <None Remove="ImageAssets\CompleteAndCompleteMyOrderTag.png" />
+    <None Remove="ImageAssets\HoagieSelection.png" />
+    <None Remove="ImageAssets\HoagieSelection\ChickenCheeseSteakHoagie.png" />
+    <None Remove="ImageAssets\HoagieSelection\MeatBallHoagie.png" />
+    <None Remove="ImageAssets\HoagieSelection\RoastBeefHoagie.png" />
+    <None Remove="ImageAssets\InformationIcon.png" />
+    <None Remove="ImageAssets\ItemConnector.png" />
+    <None Remove="ImageAssets\MakeASelection.png" />
+    <None Remove="ImageAssets\MyOrderLabel.png" />
+    <None Remove="ImageAssets\PreviousButton.png" />
+    <None Remove="ImageAssets\PrintOutAd.png" />
+    <None Remove="ImageAssets\SelectAnotherItem.png" />
+    <None Remove="ImageAssets\SelectAVariety.png" />
+    <None Remove="ImageAssets\ShopTheRestOfTheStore.png" />
+    <None Remove="ImageAssets\SoupsAndSidesSelection.png" />
+    <None Remove="ImageAssets\SoupsAndSidesSelection\ChickenNoodleSoup.png" />
+    <None Remove="ImageAssets\SoupsAndSidesSelection\MacAndCheese.png" />
+    <None Remove="ImageAssets\SoupsAndSidesSelection\MashedPotatoesSide.png" />
+    <None Remove="ImageAssets\SoupsAndSidesSelection\TomatoBisqueSoup.png" />
+    <None Remove="ImageAssets\SpanishLanguageChangeButton.png" />
+    <None Remove="ImageAssets\SpecialOrder.png" />
+    <None Remove="ImageAssets\UpdateQuantity.png" />
+    <None Remove="ImageAssets\WawaAD_1.png" />
+    <None Remove="ImageAssets\WawaAD_2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="BackgroundAssets\WawaBeginningMenu-01.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IconAssets\WawaWindowIcon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\AddMoreToYourOrder.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\BeveragesSelection.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\BeveragesSelection\ColdBeverages.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\BeveragesSelection\ColdBeverage\ChaiMatcha_Cold.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\BeveragesSelection\ColdBeverage\GreenTea_Cold.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\BeveragesSelection\ColdBeverage\Lemonade_Cold.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\BeveragesSelection\HotBeverages.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\BeveragesSelection\HotBeverage\MoltenLava_Hot.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\CancelButton.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\CompleteAndCompleteMyOrderTag.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\HoagieSelection.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\HoagieSelection\RoastBeefHoagie.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\InformationIcon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\ItemConnector.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\MakeASelection.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\MyOrderLabel.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\PreviousButton.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\PrintOutAd.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\SelectAnotherItem.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\SelectAVariety.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\ShopTheRestOfTheStore.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\SoupsAndSidesSelection.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\SoupsAndSidesSelection\ChickenNoodleSoup.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\SoupsAndSidesSelection\MacAndCheese.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\SoupsAndSidesSelection\MashedPotatoesSide.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\SoupsAndSidesSelection\TomatoBisqueSoup.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\SpanishLanguageChangeButton.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\SpecialOrder.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\UpdateQuantity.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\WawaAD_1.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ImageAssets\WawaAD_2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ImageAssets\AllergenWarning.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ImageAssets\HoagieSelection\ChickenCheeseSteakHoagie.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ImageAssets\HoagieSelection\MeatBallHoagie.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ImageAssets\BeveragesSelection\HotBeverage\DoubleShotOfEspresso_Hot.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

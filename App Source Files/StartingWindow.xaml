@@ -1,0 +1,14 @@
+﻿<Window x:Name="wdw_startWindow" x:Class="Lab_WawaApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_WawaApp"
+        mc:Ignorable="d"
+        Title="Wawa Order Start" Height="520" Width="800" WindowStartupLocation="CenterScreen" Icon="/IconAssets/WawaWindowIcon.png" ResizeMode="NoResize">
+    <Grid x:Name="grd_startingWindow" MouseLeftButtonDown="grd_startingWindow_MouseLeftButtonDown">
+        <Grid.Background>
+            <ImageBrush ImageSource="pack://application:,,,/Lab_WawaApp;component/BackgroundAssets/WawaBeginningMenu-01.png" Stretch="Fill"/>
+        </Grid.Background>
+    </Grid>
+</Window>
